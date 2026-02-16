@@ -1,0 +1,21 @@
+name: deploy.yml
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  # Zip the entire project and upload it as an artifact
+  zip-and-upload:
+    runs-on: ubuntu-latest
+    steps:
+        - name: Checkout code
+          uses: actions/checkout@v2
+        - name: Zip project
+          # ignore the folders starting with `.` (e.g., .git, .github)
+          run: zip -r mcf-custom-models.zip . -x ".*/*"
+        - name: Upload artifact
+          uses: actions/upload-artifact@v2
+          with:
+            name: resourcepack
+            path: ''
