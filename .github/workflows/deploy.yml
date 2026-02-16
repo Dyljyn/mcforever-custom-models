@@ -19,3 +19,7 @@ jobs:
           with:
             name: resourcepack
             path: mcf-custom-models.zip
+        - uses: ncipollo/release-action@v1
+          with:
+            artifacts: "mcf-custom-models.zip"
+            generateReleaseNotes: true
