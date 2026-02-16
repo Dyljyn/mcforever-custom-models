@@ -10,12 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - name: Checkout code
-          uses: actions/checkout@v2
+          uses: actions/checkout@v6
         - name: Zip project
           # ignore the folders starting with `.` (e.g., .git, .github)
           run: zip -r mcf-custom-models.zip . -x ".*/*"
         - name: Upload artifact
-          uses: actions/upload-artifact@v2
+          uses: actions/upload-artifact@v6
           with:
             name: resourcepack
             path: ''
