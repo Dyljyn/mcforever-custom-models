@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/book"
+    },
+    "cases": [
+      {
+        "when": "halloween",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/book/book_halloween"
+        }
+      },
+      {
+        "when": "post-id-card",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/book/post-id-card"
+        }
+      }
+    ]
+  }
+}
