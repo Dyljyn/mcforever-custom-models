@@ -19,11 +19,11 @@ jobs:
           with:
             name: resourcepack
             path: mcf-custom-models.zip
-        - name: Bump version and push tag
-          uses: hennejg/github-tag-action@v4
+        - name: Create Release
+          uses: softprops/action-gh-release@v2
           with:
-            github_token: ${{ secrets.GITHUB_TOKEN }}
-        - uses: ncipollo/release-action@v1
-          with:
-            artifacts: "mcf-custom-models.zip"
-            generateReleaseNotes: true
+            tag_name: build-${{ github.run_number }}
+            name: Build ${{ github.run_number }}
+            files: mcf-custom-models.zip
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
