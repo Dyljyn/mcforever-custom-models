@@ -1,8 +1,10 @@
 name: deploy.yml
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: [ "Resource Pack Validator" ]
+    branches: [ main ]
+    types:
+      - completed
 
 permissions:
   contents: write
