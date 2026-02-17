@@ -1,0 +1,10 @@
+{
+  "validators": {
+    "UnusedFileValidator": {
+      "ignore": [
+        "glob:.*/**",
+        "glob:pack.png"
+      ]
+    }
+  }
+}

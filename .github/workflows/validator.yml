@@ -1,0 +1,15 @@
+name: Resource Pack Validator
+on:
+  - push
+
+jobs:
+  validate-resource-pack:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Validate Resource Pack
+        uses: MrKinau/ResourcePackValidator@v2
+        with:
+          resourcepack: .
+          config: .config/validator/config.json
