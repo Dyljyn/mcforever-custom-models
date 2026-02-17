@@ -2,7 +2,7 @@
   "validators": {
     "UnusedFileValidator": {
       "ignore": [
-        "glob:.*/*",
+        "glob:.*/**",
         "glob:pack.png"
       ]
     }
