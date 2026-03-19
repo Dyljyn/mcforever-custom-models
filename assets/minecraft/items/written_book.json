@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "select",
+    "property": "component",
+    "component": "lore",
+    "cases": [
+      {
+        "when": ["Information"],
+        "model": {
+          "type": "model",
+          "model": "item/written_book/info"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/written_book"
+    }
+  }
+}
+
