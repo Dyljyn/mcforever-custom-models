@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "select",
+    "property": "component",
+    "component": "lore",
+    "cases": [
+      {
+        "when": ["Anniversary 3"],
+        "model": {
+          "type": "model",
+          "model": "item/gold_ingot/anniversary-3"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "minecraft:item/gold_ingot"
+    }
+  }
+}
+
