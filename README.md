@@ -6,14 +6,14 @@
 
 ## Book
 
-### Custom Model Data
+**Custom Model Data**
 
 - `post-id-card`
 
 
 ## Glass Bottle
 
-### Custom Name
+**Custom Name**
 
 - `First Prize` (requires **lore** to be `Goon Saloon`)
 - `Second Prize` (requires **lore** to be `Goon Saloon`)
@@ -22,14 +22,14 @@
 
 ## Gold Ingot
 
-### Lore
+**Lore**
 
 - `Anniversary 3`
 
 
 ## Writable Book
 
-### Custom Name
+**Custom Name**
 
 - `Goonsip`
 - `Goonsip #1`
@@ -39,6 +39,6 @@
 
 ## Written Book
 
-### Lore
+**Lore**
 
 - `Information`
