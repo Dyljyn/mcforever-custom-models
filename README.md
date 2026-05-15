@@ -27,6 +27,13 @@
 - `Anniversary 3`
 
 
+## Lightning Rod
+
+**Custom Name**
+
+- `Microphone`
+
+
 ## Writable Book
 
 **Custom Name**
