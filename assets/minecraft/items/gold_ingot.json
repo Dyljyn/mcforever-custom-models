@@ -10,6 +10,13 @@
           "type": "model",
           "model": "item/gold_ingot/anniversary-3"
         }
+      },
+      {
+        "when": "mcf:trophy-2026-october",
+        "model": {
+          "type": "model",
+          "model": "item/gold_ingot/2026-october"
+        }
       }
     ],
     "fallback": {

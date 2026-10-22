@@ -25,6 +25,7 @@
 **Custom Model Data**
 
 - `mcf:trophy-anniversary-3`
+- `mcf:trophy-2026-october`
 
 
 ## Lightning Rod
