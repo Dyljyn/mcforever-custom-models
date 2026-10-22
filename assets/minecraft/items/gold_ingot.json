@@ -1,11 +1,11 @@
 {
   "model": {
     "type": "select",
-    "property": "component",
-    "component": "lore",
+    "property": "custom_model_data",
+    "index": 0,
     "cases": [
       {
-        "when": ["Anniversary 3"],
+        "when": "mcf:trophy-anniversary-3",
         "model": {
           "type": "model",
           "model": "item/gold_ingot/anniversary-3"
@@ -18,4 +18,3 @@
     }
   }
 }
-

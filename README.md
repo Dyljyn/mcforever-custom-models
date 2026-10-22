@@ -22,9 +22,9 @@
 
 ## Gold Ingot
 
-**Lore**
+**Custom Model Data**
 
-- `Anniversary 3`
+- `mcf:trophy-anniversary-3`
 
 
 ## Lightning Rod
