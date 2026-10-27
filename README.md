@@ -27,6 +27,12 @@
 - `mcf:trophy-anniversary-3`
 - `mcf:trophy-2026-october`
 
+## Honey Bottle
+
+**Custom Name**
+
+- `Mug of Midossia`
+
 
 ## Lightning Rod
 
